@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Work Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: 'Work Sans', antialiased;
+  -moz-osx-font-smoothing: 'Work Sans' , grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* UNKLE'S FONTS : "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif*/

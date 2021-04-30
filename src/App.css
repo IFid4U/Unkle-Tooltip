@@ -1,0 +1,28 @@
+/*p {
+  text-align: center;
+  max-width: 45ch;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Work Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: 'Work Sans', antialiased;
+  -moz-osx-font-smoothing: 'Work Sans' , grayscale;
+}
+*/
+
+
+h2 {
+  font-family: bookmania, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  font-style: normal;
+  line-height: 1.3;
+}
+
+body {
+  font-family: 'Work Sans',sans-serif;
+}
+
+

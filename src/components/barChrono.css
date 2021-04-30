@@ -1,0 +1,59 @@
+.container {
+    flex-direction: row;
+    flex-basis: auto;
+    max-width: fit-content;
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;  
+    display: block;
+    border-width: 2px;
+    border-color: #57B3FF;
+    border-style:ridge;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    background-color: white;
+    font-family: 'Work Sans',sans-serif; 
+    color: black;
+}
+  
+#J1, #J30, #J45, #J60, #J120 {
+    border:1px solid #57B3FF;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    padding:10px;
+    color: #57B3FF;
+}
+
+a{ 
+    text-decoration:none; 
+    color: black;
+} 
+
+
+a:hover {
+    color: white;
+}
+
+#J1:hover {
+    background-color: #57B3FF;
+    color: white;
+}
+
+#J30:hover {
+    background-color: #57B3FF;
+}
+
+#J45:hover {
+    background-color: #57B3FF;
+}
+  
+#J60:hover {
+    background-color: #57B3FF;
+}
+
+#J120:hover {
+    background-color: #57B3FF;
+}
+  
