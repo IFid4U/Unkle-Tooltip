@@ -1,13 +1,15 @@
 import React from 'react';
+import {Fragment} from 'reactNode';
 import '../../App.css';
 import './landing.css';
 import '../barChrono.css';
+import '../Tooltip';
 
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"/>
 
-function Landing () {
+const Landing = () => { 
     return (
-            <React.Fragment>
+            <Fragment>
                 <div className = 'landingOpeningText'>
                     <h2>La procédure en cas de loyer impayé</h2>
                     <text>
@@ -31,15 +33,14 @@ function Landing () {
                     </table>
                 </div>
 
+                <Tooltip></Tooltip>
+
                 <section className="choixGarantieLoyer">
                         <div className= "texteCentreVerticalement">
                         <a href={'https://www.unkle.fr/application/new/landlord'}>Choisir une garantie de loyer impayé</a>
                         </div>
                 </section>
-
-            </React.Fragment>
+            </Fragment>
     );
 }
 export default Landing;
-
-
